@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menuContainer{
+    min-width: 18px;
+    min-height: 18px;
+}
+.nav-avatarContainer{
+    max-width: 36px;
+    max-height: 36px;
+}
+.main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imageGoogle-container{
+    width: 30vw;
+}
+.imageGoogle-container > img{
+    width: 100%;
+}
+.link{
+    font-size: 1.5rem;
+}
+.search-buttons{
+    display: flex;
+    justify-content: center;
+}
+.footer-info{
+    display: flex;
+    justify-content: space-between;
+}
