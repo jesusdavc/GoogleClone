@@ -7,18 +7,31 @@
     <link rel="stylesheet" href="">
     <link rel="icon" href="./assets/icons/google.svg">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
 <body>
     <header class="header">
     <nav class="nav">
-        <a class="nav-link link" href="">Gmail</a>
-        <a class="nav-link link" href="">Imágenes</a>
-        <figure class="nav-menuContainer">
-            <img class="menuButton" src="./assets/icons/menu.svg" alt="menu-google">
-        </figure>
-        <figure class="nav-avatarContainer">
-            <img class="avatar" src="" alt="user">
-        </figure>
+        <ul class="nav-list">
+            <li><a class="nav-link link" href="">Gmail</a></li>
+            <li><a class="nav-link link" href="">Imágenes</a></li>
+            <li>
+                <a class="link menu-link" href="">
+                    <figure class="nav-menuContainer">
+                        <img class="menuButton" src="./assets/icons/menu.svg" alt="menu-google">
+                    </figure>
+                </a>
+            </li>
+            <li>
+                <a class="link user-link" href="">
+                    <figure class="nav-avatarContainer">
+                        <img class="avatar" src="./assets/images/user.jpeg" alt="user">
+                    </figure>
+                </a>
+            </li>
+        </ul>
+
+
     </nav>
     </header>
     <main class="main">
@@ -30,21 +43,27 @@
         <section class="search-section">
             <div class="search-bar">
                 <figure class="search-icon">
-                    <img src="" alt="">
+                    <img src="./assets/icons/search.svg" alt="">
                 </figure>
-                <input type="text"
+                <input class="input" type="text"
                 >
-                <figure class="micro-icon">
-                    <img src="" alt="">
-                </figure>
+                <a href="">
+                    <figure class="micro-icon">
+                        <img src="./assets/icons/mic.svg" alt="">
+                    </figure>
+                </a>
+
             </div>
             <div class="search-buttons">
-                <input class="button" type="button" value="Busqueda">
-                <input class="button" type="button" value="Busqueda">
+                <input class="button" type="button" value="Buscar con Google">
+                <input class="button" type="button" value="Me siento con suerte">
             </div>
         </section>
         <section class="language-section">
-            <p>Ofrecido por Google en: <a class="link" href="">English</a><a class="link" href="">Español</a></p>
+            <p>Ofrecido por Google en: </p>
+            <span class="link lang-link">
+                <a href="">English</a><a  href="">Español (Latinoámerica)</a>
+            </span>
         </section>
     </main>
     <footer class="footer">
@@ -53,15 +72,15 @@
         </section>
         <section class="footer-info">
             <div class="footer-infoBunisses">
-                <a class="link" href="">Publicidad</a>
-                <a class="link" href="">Negocios</a>
-                <a class="link" href="">Sobre Google</a>
-                <a class="link" href="">Cómo funciona la búsqueda</a>
+                <a  href="">Publicidad</a>
+                <a  href="">Negocios</a>
+                <a  href="">Sobre Google</a>
+                <a  href="">Cómo funciona la búsqueda</a>
             </div>
             <div class="footer-terms">
-                <a class="link" href="">Privacidad</a>
-                <a class="link" href="">Condiciones</a>
-                <a class="link" href="">Preferencias</a>
+                <a  href="">Privacidad</a>
+                <a  href="">Condiciones</a>
+                <a  href="">Preferencias</a>
             </div>
         </section>
     </footer>

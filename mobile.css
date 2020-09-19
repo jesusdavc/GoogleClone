@@ -1,0 +1,22 @@
+@media screen and (max-width: 475px){
+    .imageGoogle-container{
+        padding-top: 8rem;
+        width: 17.3rem;
+    }
+    .search-section{
+        width: 90%;
+    }
+    .search-bar{
+        width: 100%;
+    }
+    .language-section{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1.5rem;
+        align-items: center;
+    }
+    .search-buttons{
+        display: none;
+    }
+}
